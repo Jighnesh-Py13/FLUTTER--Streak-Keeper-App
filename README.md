@@ -1,17 +1,41 @@
-# streak_keeper
+# 🌱 Streak Keeper
 
-A new Flutter project.
+A simple goal and habit tracking app built with Flutter.  
+Streak Keeper helps users create goals, maintain daily streaks, and track their progress over time.
 
-## Getting Started
+## 📱 Features
 
-This project is a starting point for a Flutter application.
+- ✅ Create personal goals
+- ✏️ Edit existing goals
+- 🗑️ Delete goals
+- 🔥 Track daily streaks
+- 📅 Mark goals as completed for the day
+- 📊 View progress and streak statistics
+- 💾 Local data storage using Hive
+- 🎨 Clean and minimal green-themed UI
 
-A few resources to get you started if this is your first Flutter project:
+## 🖼️ Screens
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+### My Journey
+- Add and manage your goals
+- Swipe actions for editing and deleting goals
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Today's Goals
+- View your daily tasks
+- Swipe to mark goals as completed
+
+### Progress
+- Expand goals to view:
+  - Current streak
+  - Highest streak
+  - Today's completion status
+
+## 🛠️ Tech Stack
+
+- **Flutter**
+- **Dart**
+- **Hive Database**
+- **Google Fonts**
+- **Flutter Slidable**
+
+## 📂 Project Structure
