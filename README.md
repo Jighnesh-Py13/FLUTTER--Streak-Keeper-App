@@ -5,16 +5,16 @@ Streak Keeper helps users create goals, maintain daily streaks, and track their 
 
 ## 📱 Features
 
-- ✅ Create personal goals
-- ✏️ Edit existing goals
-- 🗑️ Delete goals
-- 🔥 Track daily streaks
-- 📅 Mark goals as completed for the day
-- 📊 View progress and streak statistics
-- 💾 Local data storage using Hive
-- 🎨 Clean and minimal green-themed UI
+- Create personal goals
+-  Edit existing goals
+-  Delete goals
+-  Track daily streaks
+-  Mark goals as completed for the day
+-  View progress and streak statistics
+-  Local data storage using Hive
+-  Clean and minimal green-themed UI
 
-## 🖼️ Screens
+##  Screens
 
 ### My Journey
 - Add and manage your goals
@@ -39,3 +39,50 @@ Streak Keeper helps users create goals, maintain daily streaks, and track their 
 - **Flutter Slidable**
 
 ## 📂 Project Structure
+
+lib/
+│
+├── data/
+│ └── journey_database.dart
+│
+├── pages/
+│ ├── today_page.dart
+│ ├── journey_page.dart
+│ └── progress_page.dart
+│
+├── util/
+│ ├── today_tile.dart
+│ ├── journey_tile.dart
+│ └── dialog_box.dart
+│
+└── main.dart
+
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have:
+
+- Flutter SDK installed
+- Android Studio / VS Code
+- Android device or emulator
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/streak_keeper.git
+
+Navigate into the project:
+
+cd streak_keeper
+
+Install dependencies:
+
+flutter pub get
+
+Run the app:
+
+flutter run
