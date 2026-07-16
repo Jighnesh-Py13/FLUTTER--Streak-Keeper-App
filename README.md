@@ -40,23 +40,34 @@ Streak Keeper helps users create goals, maintain daily streaks, and track their 
 
 ## 📂 Project Structure
 
-lib/
+```text
+streak_keeper/
 │
-├── data/
-│ └── journey_database.dart
+├── android/
+├── ios/
+├── assets/
 │
-├── pages/
-│ ├── today_page.dart
-│ ├── journey_page.dart
-│ └── progress_page.dart
+├── lib/
+│   │
+│   ├── data/
+│   │   └── journey_database.dart
+│   │
+│   ├── pages/
+│   │   ├── homepage.dart
+│   │   ├── today_page.dart
+│   │   ├── journey_page.dart
+│   │   └── progress_page.dart
+│   │
+│   ├── util/
+│   │   ├── dialog_box.dart
+│   │   ├── journey_tile.dart
+│   │   └── today_tile.dart
+│   │
+│   └── main.dart
 │
-├── util/
-│ ├── today_tile.dart
-│ ├── journey_tile.dart
-│ └── dialog_box.dart
-│
-└── main.dart
-
+├── pubspec.yaml
+└── README.md
+```
 
 ## 🚀 Getting Started
 
